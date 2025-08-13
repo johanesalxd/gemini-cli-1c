@@ -9,6 +9,7 @@ This repository contains an automated installation script for setting up a compl
 - **NPM** - Node.js package manager
 - **Gemini CLI** - Google's AI CLI tool
 - **Environment Setup** - Adds GOOGLE_CLOUD_PROJECT to bashrc
+- **Gemini CLI + VS Code** - Refer [here](https://developers.googleblog.com/en/gemini-cli-vs-code-native-diffing-context-aware-workflows/) for more details.
 
 ## Quick Start
 
@@ -22,7 +23,7 @@ chmod +x install_nvm_node_gemini.sh
 ### Option 2: Download and run in one command
 ```bash
 # Download and execute the script
-curl -o install_nvm_node_gemini.sh https://raw.githubusercontent.com/your-repo/install_nvm_node_gemini.sh
+curl -o install_nvm_node_gemini.sh https://raw.githubusercontent.com/johanesalxd/gemini-cli-1c/main/install_nvm_node_gemini.sh
 chmod +x install_nvm_node_gemini.sh
 ./install_nvm_node_gemini.sh
 ```
@@ -36,7 +37,7 @@ chmod +x install_nvm_node_gemini.sh
 
 2. **Set your Google Cloud Project ID** by editing `~/.bashrc`:
    ```bash
-   nano ~/.bashrc
+   vi ~/.bashrc
    ```
    Find the line with `GOOGLE_CLOUD_PROJECT` and replace `your-project-id-here` with your actual project ID.
 
